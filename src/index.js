@@ -1,1 +1,2 @@
-console.log("webpack");
+import utils from "./utils";
+console.log(utils);
