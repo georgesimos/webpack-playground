@@ -1,2 +1,4 @@
-import utils from "./utils";
-console.log(utils);
+import first from "./first";
+import { name, age } from "./second";
+
+console.log({ first, name, age });
