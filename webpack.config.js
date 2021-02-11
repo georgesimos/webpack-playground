@@ -7,7 +7,7 @@ module.exports = ({ mode }) => {
     mode: mode,
     entry: "./src/index.js",
     output: {
-      path: path.resolve(__dirname, "lib"),
+      path: path.resolve(__dirname, "dist"),
       filename: "./bundle.js",
     },
     plugins: [new HtmlWebpackPlugin(), new webpack.ProgressPlugin()],
